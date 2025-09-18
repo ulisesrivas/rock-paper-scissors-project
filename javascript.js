@@ -14,7 +14,18 @@ console.log("Hello World");
 // else number is 2, then computer displays scissors
 // return computer choice
 
-let rockPaperScissors = Math.floor(Math.random() * 3) + 1;
+let number = Math.floor(Math.random() * 3) + 1;
 
-console.log(rockPaperScissors);
+if (number == 1) {
+  selection = "Rock";
+}
+else if (number ==2) {
+  selection = "Paper";
+}
+else if (number == 3) {
+  selection = "Scissors";
+}
 
+
+console.log(number);
+console.log(selection);
