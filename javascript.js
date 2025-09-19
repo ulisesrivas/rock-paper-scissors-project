@@ -29,9 +29,10 @@ function getComputerChoice() {
 
   console.log(number);
   return selection;
-  // console.log(number);
-  // console.log(selection);
 }
 
 console.log(getComputerChoice());
 
+// writing the logic to geta human choice
+// hint.. assume the user will always enter a valid choice
+// 
