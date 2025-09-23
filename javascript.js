@@ -1,4 +1,10 @@
+// step #1
+// setting up the project structure
+
 console.log("Hello World");
+
+
+// step #2
 
 // function getComputerChoice() 
 
@@ -33,6 +39,23 @@ function getComputerChoice() {
 
 console.log(getComputerChoice());
 
+// step #3
 // writing the logic to geta human choice
 // hint.. assume the user will always enter a valid choice
-// 
+// hint.. use the prompt method to get user input
+
+function getHumanChoice() {
+  choice = prompt("Pick one of the following choices by typing in your answer: 'Rock', 'Paper' or 'Scissors' ");
+  return choice;
+}
+
+console.log(getHumanChoice());
+
+// the above code prompted my user to enter a choice. the choice was saved into the 'sign' variable and returns it to my console by calling my function getHumanChoice with console.log
+
+// step #4
+// i will write variables to keep track of the players score
+// initalize variable with the value of 0
+
+let humanScore = 0;
+let computerScore = 0;
